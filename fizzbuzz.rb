@@ -1,3 +1,6 @@
 def fizzbuzz()
-	[*1..100]
+	x = [*1..100]
+	x[2] = "mined"
+	x 
 end
+
