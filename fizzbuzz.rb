@@ -1,5 +1,5 @@
-def one
-	1 == 1
+def fizzbuzz()
+	[]
 end
 
 	
