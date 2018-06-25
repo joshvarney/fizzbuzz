@@ -1,15 +1,15 @@
 def fizzbuzz()
-	x = [*1..100]
-	x.each do |y|
-		if y % 5 == 0
-			x[y-1] = "minds"
-		elsif y % 3 == 0
-			x[y-1] = "mined"
+	fizz_array = [*1..100]
+	fizz_array.each do |number|
+		if number % 5 == 0
+			fizz_array[number-1] = "minds"
+		elsif number % 3 == 0
+			fizz_array[number-1] = "mined"
 		end
 	end 
-	x[14] = "mined minds"
+	fizz_array[14] = "mined minds"
 
-	x 
+	fizz_array 
 
 end
 
