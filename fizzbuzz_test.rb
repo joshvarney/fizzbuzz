@@ -20,6 +20,9 @@ class TestFizzbuzz < Minitest::Test
 	def test_if_15_is_mined_minds
 		assert_equal("mined minds",fizzbuzz()[14])
 	end
+	def test_if_6_is_mined
+		assert_equal("mined",fizzbuzz()[5])
+	end
 
 
 
