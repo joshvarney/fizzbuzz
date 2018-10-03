@@ -29,8 +29,4 @@ class TestFizzbuzz < Minitest::Test
 	def test_if_30_is_mined_minds
 		assert_equal("mined minds",fizzbuzz()[29])
 	end
-
-
-
-
 end

@@ -9,8 +9,5 @@ def fizzbuzz()
 			fizz_array[number-1] = "mined"
 		end
 	end 
-
 	fizz_array 
-
 end
-
